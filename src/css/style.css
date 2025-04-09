@@ -1,0 +1,72 @@
+* {
+    font-family: 'Domine', serif;
+  }  
+
+body {
+    background-color: #F2EBBF;
+}
+
+mark {
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+main {
+    background-color: #f4eecc;
+    width: 600px;
+    margin: 0 0 100px 0;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px #575549;
+}
+
+.parte_1 {
+    
+    height: self + 10px;
+}
+
+
+  
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    color: #ec9d36;
+    text-shadow: 1px 1px 2px #543e22;
+    text-align: center;
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+
+.topo {
+    border-radius: 10px;
+    position: fixed;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2132f0;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  
+  .menu, .espaco {
+    width: 80px; /* igual para balancear */
+  }
+  
+  .titulo {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 100px;
+    flex: 1;
+  }
+  
